@@ -1,0 +1,22 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +3V3BCKP
+K power-flag
+$ENDCMP
+#
+$CMP +5V_BATT
+K power-flag
+$ENDCMP
+#
+$CMP LTC4419
+D 18V Dual Input Micropower PowerPath Prioritizer
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4419fa.pdf
+$ENDCMP
+#
+$CMP MP1475S
+D High-Efficiency, 3A, 16V, 500kHz Synchronous, Step-Down Converter, TSOT-23-8
+K buck converter
+F https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP1475S/document_id/888
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,119 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# ADS1115IDGST-dk_Data-Acquisition-Analog-to-Digital-Converters-ADC
+#
+DEF ADS1115IDGST-dk_Data-Acquisition-Analog-to-Digital-Converters-ADC U 0 40 Y Y 1 F N
+F0 "U" -350 450 60 H V L CNN
+F1 "ADS1115IDGST-dk_Data-Acquisition-Analog-to-Digital-Converters-ADC" 50 -450 60 H V L CNN
+F2 "digikey-footprints:MSOP-10_W3mm" 200 200 60 H I L CNN
+F3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fads1113" 200 300 60 H I L CNN
+F4 "296-24934-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "ADS1115IDGST" 200 500 60 H I L CNN "MPN"
+F6 "Integrated Circuits (ICs)" 200 600 60 H I L CNN "Category"
+F7 "Data Acquisition - Analog to Digital Converters (ADC)" 200 700 60 H I L CNN "Family"
+F8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fads1113" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/texas-instruments/ADS1115IDGST/296-24934-1-ND/2123298" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "IC ADC 16-BIT I2C PROGBL 10-MSOP" 200 1000 60 H I L CNN "Description"
+F11 "Texas Instruments" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -350 400 350 -400 0 1 0 f
+X ADDR 1 -500 300 150 R 50 50 1 1 I
+X SCL 10 -500 -200 150 R 50 50 1 1 I
+X ALRT/RDY 2 500 0 150 L 50 50 1 1 O
+X GND 3 0 -550 150 U 50 50 1 1 W
+X AIN0 4 -500 200 150 R 50 50 1 1 I
+X AIN1 5 -500 100 150 R 50 50 1 1 I
+X AIN2 6 -500 0 150 R 50 50 1 1 I
+X AIN3 7 -500 -100 150 R 50 50 1 1 I
+X VDD 8 0 550 150 D 50 50 1 1 W
+X SDA 9 -500 -300 150 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# CPC1002NTR-dk_Solid-State-Relays
+#
+DEF CPC1002NTR-dk_Solid-State-Relays RLY 0 0 Y Y 1 F N
+F0 "RLY" 0 325 50 H V C CNN
+F1 "CPC1002NTR-dk_Solid-State-Relays" 0 -350 50 H V C CNN
+F2 "digikey-footprints:SOP-4_W3.81mm" 200 200 50 H I L CNN
+F3 "http://www.ixysic.com/home/pdfs.nsf/www/CPC1002N.pdf/$file/CPC1002N.pdf" 200 300 60 H I L CNN
+F4 "CLA230CT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "CPC1002NTR" 200 500 60 H I L CNN "MPN"
+F6 "Relays" 200 600 60 H I L CNN "Category"
+F7 "Solid State Relays" 200 700 60 H I L CNN "Family"
+F8 "http://www.ixysic.com/home/pdfs.nsf/www/CPC1002N.pdf/$file/CPC1002N.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/ixys-integrated-circuits-division/CPC1002NTR/CLA230CT-ND/1212841" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "SSR RELAY SPST-NO 700MA 0-60V" 200 1000 60 H I L CNN "Description"
+F11 "IXYS Integrated Circuits Division" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S 225 275 -225 -275 0 1 0 f
+P 2 0 1 0 -150 -25 -100 -25 N
+P 2 0 1 0 25 75 25 -75 N
+P 2 0 1 0 50 -50 50 -100 N
+P 2 0 1 0 50 -25 50 25 N
+P 2 0 1 0 50 50 50 100 N
+P 3 0 1 0 125 -75 125 0 50 0 N
+P 4 0 1 0 -250 200 -125 200 -125 -200 -250 -200 N
+P 4 0 1 0 -150 25 -100 25 -125 -25 -150 25 F
+P 4 0 1 0 -95 10 -70 -15 -95 -15 -70 -40 N
+P 4 0 1 0 -70 45 -45 20 -70 20 -45 -5 N
+P 4 0 1 0 -60 -30 -80 -50 -55 -55 -60 -30 F
+P 4 0 1 0 -35 5 -55 -15 -30 -20 -35 5 F
+P 4 0 1 0 50 -75 125 -75 125 -200 250 -200 N
+P 4 0 1 0 50 0 100 25 100 -25 50 0 F
+P 4 0 1 0 50 75 125 75 125 200 250 200 N
+X CON+ 1 -400 200 150 R 50 50 1 1 P
+X CON- 2 -400 -200 150 R 50 50 1 1 P
+X DC- 3 400 -200 150 L 50 50 1 1 I
+X DC+ 4 400 200 150 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# LFXTAL003033BULK-Sensor_Board_parts
+#
+DEF LFXTAL003033BULK-Sensor_Board_parts CRYS 0 40 Y Y 1 F N
+F0 "CRYS" 175 175 50 H V C CNN
+F1 "LFXTAL003033BULK-Sensor_Board_parts" 175 -175 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 100 50 125 -50 0 1 0 F
+S 150 100 200 -100 0 1 0 N
+S 225 50 250 -50 0 1 0 F
+X ~ 1 0 0 100 R 50 50 1 1 I
+X ~ 2 350 0 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# SC16IS740IPWQ900-Sensor_Board_parts
+#
+DEF SC16IS740IPWQ900-Sensor_Board_parts U 0 40 Y Y 1 F N
+F0 "U" 450 250 50 H V C CNN
+F1 "SC16IS740IPWQ900-Sensor_Board_parts" 450 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 800 -750 100 50 0 1 0 N
+X RTS_N 10 900 -600 100 L 50 50 0 0 O
+X CTS_N 11 900 -500 100 L 50 50 0 0 O
+X Tx 12 900 -400 100 L 50 50 0 0 O
+X Rx 13 900 -300 100 L 50 50 0 0 I
+X RESET_N 14 900 -200 100 L 50 50 0 0 I
+X XTAL1 15 900 -100 100 L 50 50 0 0 O
+X XTAL2 16 900 0 100 L 50 50 0 0 O
+X A1 3 0 -200 100 R 50 50 0 0 I
+X n.c. 4 0 -300 100 R 50 50 0 0 B
+X SCL 5 0 -400 100 R 50 50 0 0 I
+X SDA 6 0 -500 100 R 50 50 0 0 B
+X IRQ_N 7 0 -600 100 R 50 50 0 0 O
+X I2C 8 0 -700 100 R 50 50 0 0 I
+X Vss 9 900 -700 100 L 50 50 0 0 W
+X Vdd 1 0 0 100 R 50 50 1 1 W
+X A0 2 0 -100 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

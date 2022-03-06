@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Sensor_Board_parts)(type Legacy)(uri C:/Users/colec/Documents/GitHub/LagrangianProfiler/PCB/SensorBoard_Old/Sensor_Board_parts.lib)(options "")(descr ""))
+  (lib (name SensorBoard-rescue)(type Legacy)(uri ${KIPRJMOD}/SensorBoard-rescue.lib)(options "")(descr ""))
+)

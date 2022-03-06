@@ -1,0 +1,69 @@
+<script src="/data/chart.min.js"script></script>
+
+<div id="wrapper">
+    <div id="update-div" style="float:left;padding-right:50;">
+        <form method='POST' action='/update' enctype='multipart/form-data' style='padding:4;'><input type='file' name='update'><input type='submit' value='Update Firmware'></form>
+    </div>
+    <div id="file-div" style="float:left;">
+        <form action='/data' style='padding:4;'><input type='submit' value='View Files'></form>
+    </div>
+</div>
+
+<canvas id="line-chart" width="1000" height="500"></canvas>
+<script>
+
+var data = [];
+var chart = new Chart(document.getElementById("line-chart"), {
+  type: 'scatter',
+  data: {
+    datasets: [{
+        data: data,
+        label: "Depth Readings",
+        borderColor: "#3e95cd",
+        fill: false
+      }
+    ]
+  },
+  options: {
+    showLine: true,
+    responsive: true,
+    maintainAspectRatio: true,
+    scales: {
+      x: {
+        type: "linear",
+        display: true,
+        position: "bottom"
+      },
+      y: {
+        type:"linear",
+        display: true,
+        position: "left",
+        reverse: true
+        }
+    },
+    title: {
+      display: true,
+      text: 'Sensor Readings'
+    }
+  }
+});
+
+var xhr = new XMLHttpRequest();
+xhr.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    var data_str = this.responseText;
+    console.log(data_str)
+    data_str.split("\n").forEach(function(pair){
+      if (pair.length > 0) {
+        var sp = pair.split(", ");
+        data.push({x: parseFloat(sp[0]), y: parseFloat(sp[1])});
+      }
+    });
+    
+    chart.update()
+  }
+}; 
+xhr.open("GET", "/depths", true);
+xhr.send();
+
+</script>

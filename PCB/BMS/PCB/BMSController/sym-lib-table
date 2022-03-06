@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name aquabotsBMS)(type Legacy)(uri ${KIPRJMOD}/aquabotsBMS.lib)(options "")(descr ""))
+  (lib (name aquabotsBMS-rescue)(type Legacy)(uri ${KIPRJMOD}/aquabotsBMS-rescue.lib)(options "")(descr ""))
+)

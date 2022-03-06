@@ -1,0 +1,10 @@
+(fp_lib_table
+  (lib (name digikey-footprints)(type KiCad)(uri /Users/colepfw/Desktop/GT/Classes_GT/VIP-Aquabots/digikey-kicad-library/digikey-footprints.pretty)(options "")(descr ""))
+  (lib (name footprints)(type KiCad)(uri /Users/colepfw/Desktop/GT/Classes_GT/VIP-Aquabots/ul_AQV212S/KiCAD/2020-11-17_16-26-36/footprints.pretty)(options "")(descr ""))
+  (lib (name footprints2)(type KiCad)(uri /Users/colepfw/Desktop/GT/Classes_GT/VIP-Aquabots/ul_max3160eapT/KiCAD/2020-11-17_17-06-26/footprints.pretty)(options "")(descr ""))
+  (lib (name footprints3)(type KiCad)(uri "/Users/colepfw/Desktop/GT/Classes_GT/VIP-Aquabots/PCB Libraries/ul_MAX3107EAG/KiCAD/2020-11-17_17-25-26/footprints.pretty")(options "")(descr ""))
+  (lib (name footprints4)(type KiCad)(uri "/Users/colepfw/Desktop/GT/Classes_GT/VIP-Aquabots/PCB Libraries/ul_max3160eapT/KiCAD/2020-11-17_17-06-26/footprints.pretty")(options "")(descr ""))
+  (lib (name Cap1uF)(type KiCad)(uri "/Users/colepfw/Desktop/GT/Classes_GT/VIP-Aquabots/PCB Libraries/ul_Cap1uf/KiCAD/2020-11-17_18-04-40/footprints.pretty")(options "")(descr ""))
+  (lib (name Cap100nF)(type KiCad)(uri "/Users/colepfw/Desktop/GT/Classes_GT/VIP-Aquabots/PCB Libraries/ul_Cap100nF_LMK212SD104KGT/KiCAD/2020-11-17_18-20-09/footprints.pretty")(options "")(descr ""))
+  (lib (name SensorBoardFootprints)(type KiCad)(uri ${KIPRJMOD}/SensorBoardFootprints.pretty)(options "")(descr ""))
+)

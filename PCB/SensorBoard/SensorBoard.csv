@@ -1,0 +1,18 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"C8,C7,C6,C5,C4,C3";"C_0603_1608Metric_Pad1.05x0.95mm_HandSolder";6;"0.1uF";;;
+2;"J1";"PinHeader_2x03_P2.54mm_Vertical";1;"Power Header";;;
+3;"J2";"PinHeader_2x03_P2.54mm_Vertical";1;"Signal Header";;;
+4;"REF**,REF**,REF**";"MountingHole_3.2mm_M3_Pad_Via";3;"MountingHole_3.2mm_M3_Pad_Via";;;
+5;"U6,U5,U4,U3";"TSSOP-16_4.4x5mm_P0.65mm";4;"SC16IS740IPWQ900";;;
+6;"U2";"VSSOP-10_3x3mm_P0.5mm";1;"ADS1115IDGST";;;
+7;"U1";"SSOP-28_5.3x10.2mm_P0.65mm";1;"MCP23017_SS";;;
+8;"RLY4,RLY3,RLY2,RLY1,RLY0";"SOP-4_3.8x4.1mm_P2.54mm";5;"CPC1002NTR";;;
+9;"R12,R11,R10,R9,R8,R3,R2,R1,R0";"R_0805_2012Metric_Pad1.15x1.40mm_HandSolder";9;"1k";;;
+10;"R4";"R_0805_2012Metric_Pad1.15x1.40mm_HandSolder";1;"10k";;;
+11;"J4";"Molex_Nano-Fit_105314-xx10_2x05_P2.50mm_Horizontal";1;"Sensor 0";;;
+12;"J5";"Molex_Nano-Fit_105314-xx10_2x05_P2.50mm_Horizontal";1;"Sensor 1";;;
+13;"J6";"Molex_Nano-Fit_105314-xx10_2x05_P2.50mm_Horizontal";1;"Sensor 2";;;
+14;"J7";"Molex_Nano-Fit_105314-xx10_2x05_P2.50mm_Horizontal";1;"Sensor 3";;;
+15;"CRYS1";"Crystal_HC49-U_Vertical";1;"LFXTAL003033BULK";;;
+16;"C2";"C_0603_1608Metric_Pad1.05x0.95mm_HandSolder";1;"33pf";;;
+17;"C1";"C_0603_1608Metric_Pad1.05x0.95mm_HandSolder";1;"22pf";;;

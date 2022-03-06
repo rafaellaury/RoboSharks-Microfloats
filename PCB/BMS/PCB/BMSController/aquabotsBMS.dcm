@@ -1,0 +1,54 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ESP32-DEVKITC-32D
+F https://www.digikey.com/en/products/detail/espressif-systems/ESP32-DEVKITC-32D/9356990
+$ENDCMP
+#
+$CMP LMR14206
+D Simple Switcher Buck Regulator, Vin=4.5-42V, Iout=600mA, Adjustable output voltage, SOT-23-6 package
+K simple-switcher buck step-down voltage-regulator
+F http://www.ti.com/lit/ds/symlink/lmr14206.pdf
+$ENDCMP
+#
+$CMP LMR16006YQ3
+D Simple Switcher Buck Regulator, Vin=4-40V, Iout=600mA, Fixed 3.3V output voltage, SOT-23-6 package
+K simple-switcher buck step-down voltage-regulator
+F http://www.ti.com/lit/ds/symlink/lmr16006y-q1.pdf
+$ENDCMP
+#
+$CMP LMR16006YQ5
+D Simple Switcher Buck Regulator, Vin=4-40V, Iout=600mA, Fixed 5.0V output voltage, SOT-23-6 package
+K simple-switcher buck step-down voltage-regulator
+F http://www.ti.com/lit/ds/symlink/lmr16006y-q1.pdf
+$ENDCMP
+#
+$CMP LMR50410
+D SIMPLE SWITCHER® 4-V to 36-V, 1-A Buck Converter
+K simple-switcher buck step-down voltage-regulator
+F https://www.ti.com/lit/ds/symlink/lmr50410.pdf?ts=1622489779227&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLMR50410
+$ENDCMP
+#
+$CMP LTC4414
+D 36V Low Loss PowerPath Controller
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4414fc.pdf
+$ENDCMP
+#
+$CMP LTC4416
+D 36V Low Loss Dual PowerPath Controller
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4416fa.pdf
+$ENDCMP
+#
+$CMP LTC4419
+D 18V Dual Input Micropower PowerPath Prioritizer
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4419fa.pdf
+$ENDCMP
+#
+$CMP TL2575HV
+F https://www.ti.com/lit/ds/symlink/tl2575hv-33-q1.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1621973184896
+$ENDCMP
+#
+$CMP TLS4120D0EPV33
+F https://www.ti.com/lit/ds/symlink/tl2575hv-33-q1.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1621973184896
+$ENDCMP
+#
+#End Doc Library

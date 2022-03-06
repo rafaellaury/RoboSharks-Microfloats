@@ -1,0 +1,98 @@
+<style>
+  h1 {text-align: center;}
+  h2 {text-align: center;}
+</style>
+
+<div class = "title">
+  <h1>MicroFloat Control</h1>
+</div>
+
+<div class = "control-center">
+  <h2>MicroFloat Control Center</h2>
+  <h3>Connections</h3>
+  <p>DAC Converter: </p>
+  <p>ADC Converter: </p>
+  <p>WiFi Connection: </p>
+  <p>Link Established: </p>
+  <h3>Data</h3>
+  <button class="connect" (click)="connectDevice()">Connect</button>
+</div>
+
+<div class = "manual-input">
+  <h2>Manual Input Based Control</h2>
+
+  <form #userForm="ngForm" (ngSubmit)="runManualInput(userForm.value)">
+
+    <label for="rpm">% of max motor rpm:</label>
+    <input type="text" id="rpm" name="rpm" [(ngModel)]="rpm">
+
+    <p>Direction</p>
+
+    <input type="radio" id="clockeise" name="direction" value="clockwise"
+    [(ngModel)]="direction">
+    <label for="clockwise">Clockwise</label>
+
+    <input type="radio" id="counterclockwise" name="direction" value="counterclockwise"
+    [(ngModel)]="direction">
+    <label for="counterclockwise">Counter-clockwise</label>
+
+    <br><br>
+
+    <label for="duration">Duration (in seconds)</label>
+    <input type="text" id="duration" name="duration" [(ngModel)]="duration">
+
+    <br><br>
+    
+    <button class="clear" (click)="clearManualInput()">Clear</button>
+    <button class="run" type="submit">Run</button>
+
+    <br><br>
+
+  Selected Manual Input Based Control: {{rpm}} {{direction}} {{duration}}
+
+  </form>
+</div>
+
+<div class = "predetermined-sequence">
+  <h2>Pre-Determined Sequence Control</h2>
+
+  <form #userForm="ngForm" (ngSubmit)="runPredeterminedSequence(userForm.value)">
+
+    <input type="radio" id="continuous-dive" value="continuousdive" name="predeterminedsequence"
+    [(ngModel)]="predeterminedsequence">
+    <label for="continuous-dive">Continuous Dive</label>
+
+    <input type="radio" id="continuousrise" value="continuousrise" name="predeterminedsequence"
+    [(ngModel)]="predeterminedsequence">
+    <label for="continuous-rise">Continuous Rise</label>
+
+    <input type="radio" id="bleed-air" value="bleedair" name="predeterminedsequence"
+    [(ngModel)]="predeterminedsequence">
+    <label for="bleed-air">Bleed Air</label>
+
+    <input type="radio" id="quick-dive" value="quickdive" name="predeterminedsequence"
+    [(ngModel)]="predeterminedsequence">
+    <label for="quick-dive">Quick Dive</label>
+
+    <input type="radio" id="quick-rise" value="quickrise" name="predeterminedsequencee"
+    [(ngModel)]="predeterminedsequence">
+    <label for="quick-rise">Quick Rise</label>
+
+    <input type="radio" id="terminate" value="terminate" name="predeterminedsequence"
+    [(ngModel)]="predeterminedsequence">
+    <label for="terminate">Terminate</label>
+
+    <br><br>
+
+    <button class="clear" (click)="clearPredeterminedSequence()">Clear</button>
+    <button class="run" type="submit">Run</button>
+
+    <br><br>
+
+    Selected predetermined sequence: {{predeterminedsequence}}
+
+  </form>
+
+</div>
+
+<router-outlet></router-outlet>

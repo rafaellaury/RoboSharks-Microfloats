@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTC4419
+D 18V Dual Input Micropower PowerPath Prioritizer
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4419fa.pdf
+$ENDCMP
+#
+#End Doc Library
