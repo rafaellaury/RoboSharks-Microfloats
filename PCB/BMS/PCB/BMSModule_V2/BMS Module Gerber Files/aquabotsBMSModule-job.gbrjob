@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "(6.0.2)"
+      "Version": "(6.0.1-0)"
     },
-    "CreationDate": "2022-02-16T12:52:40-05:00"
+    "CreationDate": "2022-02-25T00:16:29-05:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -77,6 +77,16 @@
       "Path": "aquabotsBMSModule-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
+    },
+    {
+      "Path": "aquabotsBMSModule-F_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "aquabotsBMSModule-B_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Bot",
+      "FilePolarity": "Positive"
     }
   ],
   "MaterialStackup": [
@@ -90,29 +100,24 @@
     },
     {
       "Type": "SolderMask",
-      "Thickness": 0.01,
       "Name": "Top Solder Mask"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.035,
       "Name": "F.Cu"
     },
     {
       "Type": "Dielectric",
-      "Thickness": 1.51,
       "Material": "FR4",
       "Name": "F.Cu/B.Cu",
       "Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.035,
       "Name": "B.Cu"
     },
     {
       "Type": "SolderMask",
-      "Thickness": 0.01,
       "Name": "Bottom Solder Mask"
     },
     {
