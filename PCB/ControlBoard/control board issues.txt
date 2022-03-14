@@ -1,0 +1,38 @@
+Design Issues:
+LR62E no data lines connected
+NEO-M8N/NEO-M9N D_SEL is tied to ground which disables I2C mode
+Should change connection for the SD card from native to serial or talk to Dr. West and figure out what storage solution he actually wants
+Should have added debug points for the ESP32 (at least pins 37 and 38 for flashing over uart)
+Ideally we would like to add 2 extra external connectors to signal the ESP32 to turn everything on, probably just connect J5 pin 5 to power and 6 to a GPIO with pulldown resistor so you can pull it high by shorting the pins
+Might need to come up with a method of charging the Backup Battery, even if its just adding an extra set of throughholes to clip some leads on or something
+
+Layout Issues:
+Need cutout for the USB-C port so you can actually plug a cable in
+Would be nice to move U14 and U15 further up so its safer to clamp the board in a vise
+
+
+Part Selection Issues:
+I think the purchased headers are 1mm instead of 2.54mm, need to find the correct version
+Level shifter for 1.8V was out of stock, I think its back now though
+12v reg out of stock so didn't solder most of those components
+LTC4419s for power source selection out of stock, soldered wire for USB5V and non-backup 3V3
+
+
+Soldering Issues
+Mishap with leak detect, soldered resistor onto pad
+5V->3V3 regulator tore a ground pad, seems totally fine
+USB protection (USBLC6) out of stock so soldered wire across the two lines
+Redundant Fuse 3 replaced with wire
+1.8V reg out of stock, not soldered
+Termperature Humidity Pressure Sensor (BME280) is soldered but untested, might be kind of sketchy
+LR62E is a little crooked, don't think it is a problem but worth keeping an eye on
+Reused NEO-M8N from RUR team, it looks like they may have gotten it a little too warm, not sure if it works or not
+USB D- pad damaged while fixing a different issue, ran a mod wire
+D1 and D2 are super sketchy looking, might want to test those if you're going to use them
+
+
+Current Power Issues:
+5V Regulator needs to be tested with load applied
+
+
+
