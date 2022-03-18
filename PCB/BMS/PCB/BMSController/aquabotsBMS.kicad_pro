@@ -403,7 +403,7 @@
       "idf": "",
       "netlist": "aquabotsBMS.net",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../../../../../Desktop/aquabotsBMS.STEP",
       "vrml": ""
     },
     "page_layout_descr_file": ""
