@@ -37,22 +37,28 @@ The following is the documentation on each of the methods for the MicroFloats te
 The following is a brief overview and description of each test code found in the MicroFloat-Test repository. Most of the code listed is for priming the system and making sure that enough oil is in the bellows versus the reservoir to achieve neutral buoyancy. When using the following programs to calibrate oil levels, it is recommended that the electronics are off to the side so that the cap of the reservoir can be taken off, and the oil levels can be monitored. Watching the oil levels is crucial as contracting or expanding the bellows too much could cause it to pop, and expanding the bellows beyond the amount of oil in the reservoir introduces air to the system. 
 
 *do_nothing*
+
 This program will do as it is called, nothing. This program was written in order to test the float underwater to check neutral buoyancy. It is necessary simply because the power switch at the top of the float needs to be screwed in (and therefore the system is powered). This program ensures that the microcontroller does not send any commands. 
 
 *full_contract*
+
 This program will remove all oil from the bellows and into the reservoir. This would be used if trying to readjust the timings if the oil levels in the reservoir/bellows became inconsistent. This program will run once.
 
 *full_expand*
+
 This program will remove all the oil from the reservoir and into the bellows. This would also be used to readjust the timings if the oil levels in the reservoir/bellows became inconsistent. This program will run once.
 
 *half_contract*
+
 This code will remove half of the oil from the bellows, into the reservoir. This code would be run if the bellows was fully expanded with oil, and the desired state was only half expanded with oil. In this case, the float would then be at neutral buoyancy. This program will run once.
 
 
 *half_expand*
+
 This code will add half the oil from the reservoir into the bellows. This could be run if the bellows was fully contracted and the desired state was half expanded with oil. In this case, the float would then be at neutral buoyancy. This program will run once. 
 
 *mission*
+
 This is code to be run in a test environment. The code assumes that the starting state is with a  half contract/half expanded bellows (neutral buoyancy). It will then sink the bottom of a pool by half contracting the bellows (resulting in no oil in the bellows). It will then expand half way and wait at the bottom of the pool. The float will then expand the bellows the rest of the way to rise, and then half contract the bellows to reach neutral buoyancy again. This program runs in a loop.
 
 ### Sensor Board Test Code
