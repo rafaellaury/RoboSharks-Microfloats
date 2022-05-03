@@ -2,6 +2,8 @@
 
 Welcome to the Team RoboSharks MicroFloats Github page. I hope you enjoy your stay!
 
+![RoboSharks](RoboSharks_Logo_Actual.png)
+
 MicroFloats is a project that aims to develop a swarm of autonomous underwater vehicles for ocean exploration. The current mission it is being developed for is the discovery of larval dispersion. Scientists in Stellwagen Bank, MA are researching this unknown phenomena, and the MicroFloats will greatly aid this scientific discovery effort.
 
 MicroFloats is an ongoing project at Georgia Tech and has had several iterations of Senior Design teams and VIP teams working on it, hence the somewhat disorganized and multilayered structure. The VIP team has a helpful wiki that helps to explain some of the electronics and BMS specifics (link [here](https://github.gatech.edu/mwoodward6/LagrangianProfiler/wiki)!)
